@@ -1,0 +1,120 @@
+body {
+    background: #eaeaea;
+    font: 14px sans-serif;
+    margin: 30px;
+}
+.slider {
+    height: 122px;
+    list-style: none;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0;
+}
+.slider > li {
+    background: #fff;
+    border-right: 24px solid;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+.slider > li > .tab {
+    border-top: 4px solid transparent;
+    cursor: pointer;
+    float: left;
+    padding: 23px 0 27px;
+    transition: 300ms;
+    width: 122px;
+}
+.slider > li > .tab > i:before {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font-size: 26px;
+    line-height: 68px;
+    margin: 0 27px;
+    text-align: center;
+    width: 68px;
+}
+.slider > li > .content {
+    height: 100%;
+    left: 140px;
+    overflow: hidden;
+    padding: 8px;
+    position: absolute;
+}
+.slider > li > .content > h2 {
+    font-size: 24px;
+    margin: 0;
+}
+.slider > li > .content > ul {
+    color: #666;
+    float: left;
+    font-size: 13px;
+    list-style: square;
+    margin: 12px;
+    padding-left: 20px;
+}
+.slider > li.active > .tab {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.slider > li.con-red {
+    border-right-color: #c0374e;
+}
+.slider > li.con-red > .tab {
+    background: #c0374e;
+}
+.slider > li.con-red > .tab:hover {
+    background: #cc4e63;
+}
+.slider > li.con-red > .content > h2 {
+    color: #c0374e;
+}
+.slider > li.con-red.active > .tab {
+    border-top-color: #d56e7f;
+}
+.slider > li.con-green {
+    border-right-color: #9cbe4f;
+}
+.slider > li.con-green > .tab {
+    background: #9cbe4f;
+}
+.slider > li.con-green > .tab:hover {
+    background: #abc869;
+}
+.slider > li.con-green > .content > h2 {
+    color: #9cbe4f;
+}
+.slider > li.con-green.active > .tab {
+    border-top-color: #bbd387;
+}
+.slider > li.con-blue {
+    border-right-color: #0098b9;
+}
+.slider > li.con-blue > .tab {
+    background: #0098b9;
+}
+.slider > li.con-blue > .tab:hover {
+    background: #00b5dd;
+}
+.slider > li.con-blue > .content > h2 {
+    color: #0098b9;
+}
+.slider > li.con-blue.active > .tab {
+    border-top-color: #06d3ff;
+}
+.slider > li.con-gold {
+    border-right-color: #e9a82a;
+}
+.slider > li.con-gold > .tab {
+    background: #e9a82a;
+}
+.slider > li.con-gold > .tab:hover {
+    background: #ecb54a;
+}
+.slider > li.con-gold > .content > h2 {
+    color: #e9a82a;
+}
+.slider > li.con-gold.active > .tab {
+    border-top-color: #f0c46f;
+}
