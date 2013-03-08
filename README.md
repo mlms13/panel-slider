@@ -9,7 +9,7 @@ Seriously, if there's anything jQuery needs, it's more half-baked slideshow plug
 Example
 -------
 
-I have no idea what the requirements are for setting this thing up, but hopefully examples will be helpful. Check out the demo files in this repository for help getting started.
+I have no idea what the requirements are for setting this thing up, but hopefully examples will be helpful. Check out the demo files in this repository for help getting started. There's also [an example on CodePen](http://codepen.io/mlms13/pen/kIvab).
 
 License
 -------
