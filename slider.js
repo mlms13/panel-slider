@@ -8,7 +8,7 @@
     $.fn.panelSlider = function (options) {
         var settings = $.extend({
             initialPanel: -1, // 0-based index of the initial panel to be shown, -1 = random
-            animDuration: 600, // duration (in ms) of the sliding animation
+            slideDuration: 600, // duration (in ms) of the sliding animation
             autoPlay: true, // whether slides should rotate automatically
             delay: 10000 // the time (in ms) between slide rotations when autoPlay is true
         }, options);
@@ -40,7 +40,7 @@
                 leftPosition = $container.width() - (tabWidth + (tabWidth * negIndex));
 
                 // move the slide to its target position on the right
-                $slide[method]({'left': leftPosition + 'px'}, settings.animDuration);
+                $slide[method]({'left': leftPosition + 'px'}, settings.slideDuration);
 
                 // keep track of the slide being collapsed
                 $slide.data('collapsed-left', false);
